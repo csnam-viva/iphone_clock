@@ -45,6 +45,33 @@
     pClockView.pMinute= pminute;
     pClockView.pSecond = psecond;
     [pClockView setNeedsDisplay];
+    
+    if (self.pAlarmOnff == YES){
+        if (self.pAlaramHour == phour && self.pAlaramMinute == pminute && psecond == 0)
+            [self messageDisplay];
+    }
+}
+-(void) messageDisplay
+{
+//    UIAlertView *AlrmView = [[UIAlertView alloc] initWithTitle:@"alaram clock"
+//                                                       message:@"time on~~~"
+//                                                       delegate:nil
+//                                             cancelButtonTitle:NSLocalizedString(@"OK",@"--") otherButtonTitles:nil];
+//    [AlrmView show];
+    
+    /*
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Alert title" message:@"Alert message" preferredStyle:UIAlertControllerStyleAlert];
+     
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+     [alertController addAction:ok];
+     [self presentViewController:alertController animated:YES completion:nil];
+     */
+    UIAlertController *alertControl =[UIAlertController alertControllerWithTitle:@"alarm clock"
+                                                                         message:@"time on~~" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *OK = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault  handler:nil];
+    [alertControl addAction:OK];
+    [self presentViewController:alertControl animated:YES completion:nil];
+    
 }
 #pragma mark - Table view data source
 
