@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9851C20A293736EC002AE64D /* MainClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9851C209293736EC002AE64D /* MainClockView.m */; };
+		9851C20C29374DFD002AE64D /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 9851C20B29374DFD002AE64D /* clock.png */; };
 		98608740293722EF00F2C884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9860873F293722EF00F2C884 /* AppDelegate.m */; };
 		98608743293722EF00F2C884 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98608742293722EF00F2C884 /* SceneDelegate.m */; };
 		98608746293722EF00F2C884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98608745293722EF00F2C884 /* ViewController.m */; };
@@ -14,9 +16,13 @@
 		9860874B293722F000F2C884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9860874A293722F000F2C884 /* Assets.xcassets */; };
 		9860874E293722F000F2C884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860874C293722F000F2C884 /* LaunchScreen.storyboard */; };
 		98608751293722F000F2C884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98608750293722F000F2C884 /* main.m */; };
+		986087592937252000F2C884 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986087582937252000F2C884 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9851C208293736EC002AE64D /* MainClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainClockView.h; sourceTree = "<group>"; };
+		9851C209293736EC002AE64D /* MainClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainClockView.m; sourceTree = "<group>"; };
+		9851C20B29374DFD002AE64D /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		9860873B293722EF00F2C884 /* T5AlaramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T5AlaramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9860873E293722EF00F2C884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9860873F293722EF00F2C884 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +35,8 @@
 		9860874D293722F000F2C884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9860874F293722F000F2C884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98608750293722F000F2C884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		986087572937252000F2C884 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		986087582937252000F2C884 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +76,15 @@
 				98608744293722EF00F2C884 /* ViewController.h */,
 				98608745293722EF00F2C884 /* ViewController.m */,
 				98608747293722EF00F2C884 /* Main.storyboard */,
+				9851C208293736EC002AE64D /* MainClockView.h */,
+				9851C209293736EC002AE64D /* MainClockView.m */,
+				986087572937252000F2C884 /* MainViewController.h */,
+				986087582937252000F2C884 /* MainViewController.m */,
 				9860874A293722F000F2C884 /* Assets.xcassets */,
 				9860874C293722F000F2C884 /* LaunchScreen.storyboard */,
 				9860874F293722F000F2C884 /* Info.plist */,
 				98608750293722F000F2C884 /* main.m */,
+				9851C20B29374DFD002AE64D /* clock.png */,
 			);
 			path = T5AlaramApp;
 			sourceTree = "<group>";
@@ -133,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9851C20C29374DFD002AE64D /* clock.png in Resources */,
 				9860874E293722F000F2C884 /* LaunchScreen.storyboard in Resources */,
 				9860874B293722F000F2C884 /* Assets.xcassets in Resources */,
 				98608749293722EF00F2C884 /* Main.storyboard in Resources */,
@@ -146,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9851C20A293736EC002AE64D /* MainClockView.m in Sources */,
 				98608746293722EF00F2C884 /* ViewController.m in Sources */,
 				98608740293722EF00F2C884 /* AppDelegate.m in Sources */,
 				98608751293722F000F2C884 /* main.m in Sources */,
+				986087592937252000F2C884 /* MainViewController.m in Sources */,
 				98608743293722EF00F2C884 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
